@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.product{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardbody{
+  width: 30%;
+  height:450px;
+  padding: 10px;
+  margin: 100px;
+}
+.cardbody img{
+  background-attachment:fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border: 1px solid #ddd;
+border-radius: 4px;
+object-fit: cover;
+width: 50%;
+height: 300px;
+}
+
+/* .cartproduct{
+  height: 600px;
+  background-color: #888d99;
+} */
